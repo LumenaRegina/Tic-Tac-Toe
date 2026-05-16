@@ -1,0 +1,22 @@
+body {
+  height: 100dvh;
+  width: 100dvw;
+  align-content: center;
+  justify-items: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3,200px);
+
+  
+}
+
+div {
+  background-color: white;
+  border: thin solid black;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
